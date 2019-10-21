@@ -75,8 +75,6 @@ while True:
         klines.volume=klines.volume.shift(-1)
         klines=klines.drop(columns=['mid'])
         klines.drop(klines.tail(1).index,inplace=True)
-        #klines=klines.rename(columns={'complete': string})
-        #print(klines)
         print (klines.head(5))
         print(klines.tail(5))
         if os.name == 'nt':
