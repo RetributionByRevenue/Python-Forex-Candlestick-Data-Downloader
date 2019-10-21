@@ -6,4 +6,4 @@ csv files containing all possible main forex pairs and trading pair combinations
 
 ![Output Result](https://raw.githubusercontent.com/RetributionByRevenue/Forex_Candlestick_Data/master/Final%20Result.png)
 
-Once the data has been obtained,it can be used for machine learning or algorithmic trading purposes. 
+Once the data has been obtained, it can be used for machine learning or algorithmic trading purposes. 
