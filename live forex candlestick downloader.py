@@ -12,7 +12,7 @@ while True:
     fx_pairs='AUDJPY CADJPY CHFJPY EURJPY NZDJPY USDJPY GBPJPY AUDUSD EURUSD GBPUSD NZDUSD USDCAD USDCHF AUDCAD CADCHF EURCAD GBPCAD NZDCAD AUDCHF EURCHF GBPCHF NZDCHF EURAUD EURGBP EURNZD GBPNZD GBPAUD AUDNZD'
     fx_pairs=fx_pairs.replace(' ','')
 
-    counter1=(len(fx_pairs)/6)
+    counter1=(len(fx_pairs)-1)
     while counter1>0:
         string=fx_pairs[-6:]
         print(string)
@@ -83,7 +83,7 @@ while True:
             klines.to_csv((r'E:\\OHLC\\'+string+'.csv')) #if using windows change directory
         else:
             klines.to_csv((r'/home/q/Dropbox/Dracula Blood Money Algo/H1OHLC/'+string+'.csv'))#if using linux/mac change directory 
- except Exception as e:
+ except Exception as e: #break code on purpose, always force exceptions while scripts loop for long periods of time. Script can crash if internet connection is lost without exceptions.
      print(e)
      print('Timestamp: {:%Y-%b-%d %H:%M:%S}'.format(datetime.datetime.now()))
      print('Downloaded all candlestick data. sleeping for 30 min. zzz')
