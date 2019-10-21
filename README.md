@@ -1,6 +1,6 @@
 # Forex_Candlestick_Data
-Downloads live and historical forex data
-Using python3 and oanda-demo-account-rest-api(free and very cool resource), anyone will be able to obtain 
+Downloads live and historical forex data; 
+ Using python3 and oanda-demo-account-rest-api(free and very cool resource), anyone will be able to obtain 
 live prices, historical prices, or live w/ historical prices. The output from this python script will produce 28
 csv files containing all possible main forex pairs and trading pair combinations.
 
