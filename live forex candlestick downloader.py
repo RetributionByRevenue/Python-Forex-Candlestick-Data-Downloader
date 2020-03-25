@@ -1,3 +1,5 @@
+#follow my Instagram @slay_the_normies, feel free to ask me questions
+#credit goes to @slay_the_normies
 import pandas as pd
 import oandapyV20
 import oandapyV20.endpoints.instruments as instruments
