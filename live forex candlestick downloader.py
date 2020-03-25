@@ -1,3 +1,4 @@
+#hope my code is useful, follow me on instagram @slay_the_normies and feel free to ask questions
 import pandas as pd
 import oandapyV20
 import oandapyV20.endpoints.instruments as instruments
